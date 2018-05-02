@@ -90,6 +90,7 @@ An approach to testing to reduce the level of product risks and inform stakehold
 ### Non-functional tests
 ### Pesticide Paradox
 ### RSpec
+RSpec is a 'Domain Specific Language' testing tool written in Ruby to test Ruby code. It is a behavior-driven development framework which is extensively used in the production applications.
 ### Regression Testing
 ### Restesting
 ### Reusability
@@ -101,7 +102,11 @@ An approach to testing to reduce the level of product risks and inform stakehold
 ### State Transition Testing
 A black-box test design technique in which test cases are designed to execute valid and invalid state transitions.
 ### Statement Testing
+A white-box test design technique in which test cases are designed to execute statements.
 ### Static testing
+
+Static testing is the testing of the software work products manually, or with a set of tools. Code is not executed.
+
 ### Structural testing
 ### System Integration
 ### System testing
@@ -130,6 +135,22 @@ There are two main categories of Test Design Techniques:<br>
 ### Test Planning and Control
 ### Test tools
 ### Testing Roles
+#### Test lead/manager: A test lead is responsible for:
+
+* Defining the testing activities for subordinates – testers or test engineers.
+* All responsibilities of test planning.
+* To check if the team has all the necessary resources to execute the testing activities.
+* To check if testing is going hand in hand with the software development in all phases.
+* Prepare the status report of testing activities.
+* Required Interactions with customers.
+* Updating project manager regularly about the progress of testing activities.
+#### Test engineers/QA testers/QC testers are responsible for:
+* To read all the documents and understand what needs to be tested.
+* Based on the information procured in the above step decide how it is to be tested.
+* Inform the test lead about what all resources will be required for software testing.
+* Develop test cases and prioritize testing activities.
+* Execute all the test case and report defects, define severity and priority for each defect.
+* Carry out regression testing every time when changes are made to the code to fix defects.
 ### Testing is context dependent
 ### Testing shows presence of defects
 ### Top down
